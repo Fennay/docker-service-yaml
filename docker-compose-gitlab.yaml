@@ -71,22 +71,22 @@ services:
     - GITLAB_BACKUP_SCHEDULE=daily
     - GITLAB_BACKUP_TIME=01:00
 
-    - SMTP_ENABLED=true
-    - SMTP_DOMAIN=www.fennay.com
-    - SMTP_HOST=smtp.mxhichina.com
-    - SMTP_PORT=25
-    - SMTP_USER=gitlab@fennay.com
-    - SMTP_PASS=fgy901214!.
+    - SMTP_ENABLED=
+    - SMTP_DOMAIN=
+    - SMTP_HOST=
+    - SMTP_PORT=
+    - SMTP_USER=
+    - SMTP_PASS=
     - SMTP_STARTTLS=true
     - SMTP_AUTHENTICATION=login
 
-    - IMAP_ENABLED=true
-    - IMAP_HOST=imap.mxhichina.com
-    - IMAP_PORT=143
-    - IMAP_USER=gitlab@fennay.com
-    - IMAP_PASS=fgy901214!.
-    - IMAP_SSL=true
-    - IMAP_STARTTLS=false
+    - IMAP_ENABLED=
+    - IMAP_HOST=
+    - IMAP_PORT=
+    - IMAP_USER=
+    - IMAP_PASS=
+    - IMAP_SSL=
+    - IMAP_STARTTLS=
 
     - OAUTH_ENABLED=false
     - OAUTH_AUTO_SIGN_IN_WITH_PROVIDER=
